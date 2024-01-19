@@ -1,9 +1,9 @@
 # Necessary Syntax for this Project
 This project is structured with the help of some basic commands required to build and run a Django Application.
 # To create a Django App:
-django-admin startproject [ProjectName]
+## django-admin startproject [ProjectName]
 # To navigate to project Directory:
-cd [ProjectFolder]
+## cd [ProjectFolder]
 
 Congrats! Now your basic Django application is ready. One of the advantage of using Django is when we create an app, it automatically include necessary pre-writte code modules, configuration file, dependencies etc.So we don't have to worry about building it from the scratch! Also we need to do is to modify the file according to the projects requirements and then build it to test it. Also we can test out how the basic template page looks like as Django administration have their own logics implemented when we create an app. To execute a Django application we can use the following command.
 
