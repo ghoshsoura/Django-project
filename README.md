@@ -28,8 +28,10 @@ After we stored all the changes in form a python file by running the makemigrati
 ### [In ProjectDirectory] - python manage.py migrate
 
 
-# Django-project
+# About Project
 This project is based on creating simple pet medicine respository system where details of every pet whether vaccinated or not are tracked. The system allows the user to verify his/her details at admin panel and after verification he/she will be able to store pet information in order to be listed in the site.
 
-I assumed this project to integrated with the business needs for a online store managemanet and thus I named it as Wisdompets Medicine Store.
+I assumed this project to be integrated with the business needs for a online store managemanet and thus I named it as Wisdompets Medicine Store.
 Wisdom Pet Medicine strives to blend the best in traditional and alternative medicine in the diagnosis and treatment of health conditions in companion animals, including dogs, cats, birds, reptiles, rodents, and fish. We apply the latest healthcare technology, along with the wisdom garnered in the centuries old tradition of veterinary medicine, to find the safest and most effective treatments and cures, while maintaining a caring relationship with our patients and their guardians.
+
+To give a brief overview of the project, At the frontend part I wrote relevant html, css file for rendering the page and integrated the files in home page of the project. For each specific pet details, I created pet data file in which detailed informtion of every pet is stored. So for retrieving a specific pet record, I created an array of objects and applied that file logic for each of the object so that corresponding pet record can be shown. For the backend part, I created an Admin panel for the administration purpose as whoever wishes to get their pet data stored and tries to signup/login, an auhtorized permission grant should be considered so that irrelevant user can't gain access to the database. After the pet data is stored, the corresponding activites on pet records by user is monitored every time and the records get updated by administrative.
