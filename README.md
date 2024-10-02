@@ -1,3 +1,7 @@
+# Snippet of the Application
+![wisdompet](https://github.com/user-attachments/assets/51790412-aa9e-4de5-980b-2b94635477ed)
+
+
 # Necessary Syntax for this Project
 This project is structured with the help of some basic commands required to build and run a Django Application.
 # To create a Django App:
